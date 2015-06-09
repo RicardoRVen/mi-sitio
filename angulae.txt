@@ -1,0 +1,27 @@
+<html ng-app>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng--controller="ctrl">
+  
+    <input type ="number" ng-model="n1"
+
+      ng-change="suerte(n1)"
+    >
+
+
+    <input type ="number" ng-model="n2">
+   <hr>
+
+   El resultado es: {{n1+n2}}  <!-- esta es la vista de msg-->
+
+  {{msgSuerte}}
+<br></br>
+Lista:{{cadenas.length}}
+  <ul>
+  	<li ng-repeat="c in cadenas">{{c}}</li>
+  </ul>
+
+</body>
+</html>

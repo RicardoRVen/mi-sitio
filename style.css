@@ -1,0 +1,36 @@
+body
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    border-radius: 15px;
+    padding:5px;
+}
+#nav {
+    font-style: verdana black;
+    line-height:50px;
+    background-color:#eeeeee;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:10px;	
+    cursor :pointer;	
+}
+#section {
+    width:350px;
+    float:left;
+    padding:20px;	 	 
+}
+#section2 {
+    width:350px;
+    float:left;
+    padding:20px;        
+}
+#footer {
+    background-color:green;
+    color:white;
+    clear:both;
+    text-align:right;
+    border-radius: 10px;
+   padding:5px;	 	 
+}
